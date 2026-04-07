@@ -27,8 +27,8 @@ const add_color = colors.unshift('black');
 const unshift_color = colors.join(', ');
 console.log(unshift_color);
 
-const num_colors = colors.indexOf('red');
-const where_num_color = (`red is the number ${num_colors} color`);
+const num_colors = colors.indexOf('blue');
+const where_num_color = (`blue is the number ${num_colors} color`);
 console.log(where_num_color);
 
 colors.length = 3;
